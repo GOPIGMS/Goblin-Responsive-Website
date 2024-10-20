@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+  /* font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal; */
+
+}
+body{
+    background:linear-gradient(245.59deg, #41a052 0%,#1e6825 28.53%,#133917 75.52%);
+
+    height:100vh;
+}
+.headers{
+display:flex;
+justify-content: space-between;
+height:70px;
+cursor:pointer;
+align-items: center;
+margin :0px 70px 30px 50px;
+
+}
+
+#menu-icon{
+    display: none;
+}
+
+.content{
+   
+
+    display:flex;
+}
+.nav>ul>li{
+   
+    list-style: none;
+}
+
+.nav>ul>li>a{
+    margin-left: 60px;
+    text-decoration: none;
+    transition:all 0.5s ease;
+    border-bottom: 2px solid transparent;
+
+    
+}
+
+.nav>ul>li>a:hover{
+    border-bottom: 2px solid white;
+ 
+
+}
+
+
+
+.left>p{
+    font-size: 30px;
+
+}
+#menu-icon{
+    font-size: 26px;
+    cursor: pointer;;
+
+}
+.play-fill{
+ cursor:pointer;
+}
+
+section{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap:50px;
+    padding: 0 19%;
+    margin-top: 5%;
+
+}
+
+.icons{
+    /* margin-left:50px; */
+    margin-right:25px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   
+}
+.icons>a{
+    text-decoration: none;
+    margin-bottom:30px;
+}
+.icons>a>i{
+    font-size: 24px;
+    transition: all 0.5s;
+ 
+}
+.icons>a>i:hover{
+    opacity: 0.4;
+    
+}
+
+.hero-img>img{
+    height:300px;
+
+
+}
+
+.hero-text h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 90px;
+
+    line-height:1;
+    margin:0 0 45px 0;
+
+}
+.hero-text h5{
+    font-size: 19px;
+    margin-bottom:15px;
+    
+}
+.hero-text h4{
+    font-size: 28px;
+    margin-bottom:15px;
+ 
+}
+.hero-text p{
+    font-size: 15px;
+    line-height:1.9;
+    margin-bottom: 40px;
+}
+.buttons{
+    display: flex;;
+}
+#compare{
+    background-color: #4d9559;
+    height:50px;
+    width:150px;
+    border:2px solid white;
+    border-radius:40px;
+    cursor:pointer;
+    margin-right: 25px;
+    transition: all 0.5s;
+
+}
+#compare:hover{
+    transform: translateY(-2px);
+}
+.watch{
+    display: flex;
+    background-color: transparent;
+    width:250px;
+    height:50px;
+    border:2px solid white;
+    border-radius:40px;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.watch:hover{
+    transform: translateY(-2px);
+}
